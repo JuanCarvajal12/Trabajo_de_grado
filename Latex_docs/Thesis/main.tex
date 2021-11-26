@@ -1,0 +1,104 @@
+% ****************************************************************
+% @author: Carva
+% 
+% This is the main .tex file on which I will structure my
+% undergrad thesis in astronomy.
+% ****************************************************************
+
+\documentclass[12pt,letterpaper,titlepage,twoside,openany]{report}
+
+% ************************
+% preamble
+% ************************
+
+\input{packages.tex}
+
+
+
+% Blank page command
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+% Changing the chapter title format
+\titleformat{\chapter}[hang]%
+    {\normalfont\huge\bfseries}
+    {\thechapter}{20pt}{\huge}
+
+% Changing spacing of the different kinds of titles
+\titlespacing*{\chapter}{0pt}{0pt}{30pt}
+\titlespacing*{\section}{1cm}{30pt}{20pt}
+\titlespacing*{\subsection}{2cm}{30pt}{20pt}
+\titlespacing*{\subsubsection}{3cm}{30pt}{20pt}
+
+% Bibliographic resources
+\addbibresource{references.bib}
+
+\begin{document}
+
+% ************************
+% title page
+% ************************
+
+\afterpage{\blankpage}
+\input{Main_content/00a_titlepage}
+
+\pagenumbering{roman}
+% ************************
+% abstract
+% ************************
+
+%\afterpage{\blankpage}
+\input{Main_content/00b_abstract}
+
+% ************************
+% agradecimientos
+% ************************
+% los agradecimientos los pondré en español de manera intencional.
+
+\afterpage{\blankpage}
+\input{Main_content/00c_Agradecimientos}
+
+% ************************
+% Contents, tables, figures
+% ************************
+
+\tableofcontents
+\newpage
+\listoftables
+\newpage
+\listoffigures
+\newpage
+\afterpage{\blankpage}
+
+
+% ************************
+% main body of the thesis
+% ************************
+
+\pagenumbering{arabic}
+
+\input{Main_content/01_introduction}
+\input{Main_content/02_Theoretical}
+\input{Main_content/03_SotA}
+
+
+% ************************
+% Appendices
+% ************************
+
+\newpage
+\blankpage
+
+\appendix
+\input{Main_content/A_multipoles}
+
+% ************************
+% Bib
+% ************************
+
+\printbibliography
+
+\end{document}

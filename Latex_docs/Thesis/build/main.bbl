@@ -1,0 +1,151 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{arfken_ed7_chap16}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=4963c826992d0abdfc79cc7edb5bef92}{%
+           family={Arfken},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e17048c80ef9b0e17796f8b23e67a6d4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ffd422c12e4df2735265da88845497b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=4963c826992d0abdfc79cc7edb5bef92}{%
+           family={Arfken},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e17048c80ef9b0e17796f8b23e67a6d4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Hans\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9ffd422c12e4df2735265da88845497b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Frank\bibnamedelima E.},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{fullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{bibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authorbibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authornamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{authorfullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editorbibnamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editornamehash}{73395921483465fe8d9c21a5471d0b1b}
+      \strng{editorfullhash}{73395921483465fe8d9c21a5471d0b1b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Mathematical Methods for Physicists (Seventh Edition)}
+      \field{edition}{Seventh Edition}
+      \field{isbn}{978-0-12-384654-9}
+      \field{title}{Chapter 16 - Angular Momentum}
+      \field{year}{2013}
+      \field{pages}{773\bibrangedash 814}
+      \range{pages}{42}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-384654-9.00016-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000165
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9780123846549000165
+      \endverb
+    \endentry
+    \entry{Cautun_2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a5ffe16069597e841603aa1059b9657f}{%
+           family={Cautun},
+           familyi={C\bibinitperiod},
+           given={Marius},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a4b804b61f9f25c53e224b74508accbe}{%
+           family={Deason},
+           familyi={D\bibinitperiod},
+           given={Alis\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f4776d513b928b621a13d84daa52cd5b}{%
+           family={Frenk},
+           familyi={F\bibinitperiod},
+           given={Carlos\bibnamedelima S},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=69c76aa065f89df24bc0a1d92920a62f}{%
+           family={McAlpine},
+           familyi={M\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{68071fc725ac8613dba7ca5b07ba8005}
+      \strng{fullhash}{72ea443b62108d35ee02d1eddcfcca3b}
+      \strng{bibnamehash}{68071fc725ac8613dba7ca5b07ba8005}
+      \strng{authorbibnamehash}{68071fc725ac8613dba7ca5b07ba8005}
+      \strng{authornamehash}{68071fc725ac8613dba7ca5b07ba8005}
+      \strng{authorfullhash}{72ea443b62108d35ee02d1eddcfcca3b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{{The aftermath of the Great Collision between our Galaxy and the Large Magellanic Cloud}}
+      \field{volume}{483}
+      \field{year}{2018}
+      \field{pages}{2185\bibrangedash 2196}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1093/mnras/sty3084
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/483/2/2185/27153859/sty3084.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/mnras/sty3084
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/mnras/sty3084
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
